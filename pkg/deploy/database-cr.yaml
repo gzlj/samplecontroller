@@ -1,0 +1,7 @@
+apiVersion: samplecontroller.lj.io/v1
+kind: Database
+metadata:
+  name: coredns
+spec:
+  user: adbc
+  

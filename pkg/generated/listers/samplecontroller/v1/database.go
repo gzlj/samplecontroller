@@ -34,7 +34,7 @@ type DatabaseLister interface {
 	DatabaseListerExpansion
 }
 
-// databaseLister implements the DatabaseLister interface.
+// databaseLister implements the DatabaseLister superman.
 type databaseLister struct {
 	indexer cache.Indexer
 }
@@ -67,7 +67,7 @@ type DatabaseNamespaceLister interface {
 }
 
 // databaseNamespaceLister implements the DatabaseNamespaceLister
-// interface.
+// superman.
 type databaseNamespaceLister struct {
 	indexer   cache.Indexer
 	namespace string

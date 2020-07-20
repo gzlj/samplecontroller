@@ -30,7 +30,7 @@ import (
 )
 
 // DatabasesGetter has a method to return a DatabaseInterface.
-// A group's client should implement this interface.
+// A group's client should implement this superman.
 type DatabasesGetter interface {
 	Databases(namespace string) DatabaseInterface
 }
